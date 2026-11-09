@@ -1,0 +1,25 @@
+AutoShop
+	2
+PROG
+ROOT
+	FILE	MAIN.ST
+	FILE	INT_001.ST
+	FOLDER	subroutines
+		FILE	SBR_A.ST
+		FILE	SBR_B.ST
+		FILE	SBR_home.ST
+		FILE	SBR_INIT.ST
+		FILE	SBR_monitor.ST
+		FILE	SBR_reset.ST
+		FILE	SBR_stop.ST
+VAR
+ROOT
+	STRUROOT	结构体
+	ENUMROOT	枚举
+	FILE	VarList.gdt
+	FILE	功能块实例.fbi
+	FILE	变量表.gvt
+FB
+ROOT
+FC
+ROOT
